@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+ <head>
+  <title>jquery sliders</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+  <script type="text/javascript">var _siteRoot='index.html',_root='index.html';</script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+ </head>
+
+ 
+  
+
+<!-- your webpage info goes here -->
+
+    <title>RDR Technologies</title>
+	
+	<meta name="author" content="your name" />
+	<meta name="description" content="" />
+
+<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+        <title>Button</title>
+		<link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() { 
+		$("img.source-image").hide();
+		var $source = $("img.source-image").attr("src");
+		$('#page-body').css({
+			'backgroundImage': 'url(' + $source +')',
+			'backgroundRepeat': 'no-repeat',
+			'backgroundPosition': 'top center'
+		});
+	}); 
+	</script>
+<!-- Styles -->	
+<style style="text/css">
+.example1 {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.example1 h2 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 30s linear infinite;
+ -webkit-animation: example1 30s linear infinite;
+ animation: example1 30s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+</style>
+
+
+</head>
+<body align="center" background = "Office.jpg"  id="page-body">
+
+<!--/top-->
+  <div id="header"><div class="wrap">
+   <div id="slide-holder">
+<div id="slide-runner">
+    <a href=""><img id="slide-img-1" src="images/image1.png"  width="100%" height="100%" class="slide" alt="" /></a>
+    <a href=""><img id="slide-img-2" src="images/image.png"  width="100%" height="100%" class="slide" alt="" /></a>
+    <a href=""><img id="slide-img-3" src="images/image2.png"  width="100%" height="100%" class="slide" alt="" /></a>
+    <a href=""><img id="slide-img-4" src="images/image3.png"  width="100%" height="100%" class="slide" alt="" /></a>
+    <a href=""><img id="slide-img-5" src="images/image4.png"  width="100%" height="100%" class="slide" alt="" /></a>
+    <a href=""><img id="slide-img-6" src="images/image5.png"  width="100%" height="100%" class="slide" alt="" /></a>
+	<a href=""><img id="slide-img-7" src="images/nature-photo6.png" class="slide" alt="" /></a> 
+    <div id="slide-controls">
+     <p id="slide-client" class="text"><strong>post: </strong><span></span></p>
+     <p id="slide-desc" class="text"></p>
+     <p id="slide-nav"></p>
+    </div>
+</div>
+	
+	<!--content featured gallery here -->
+   </div>
+   <script type="text/javascript">
+    if(!window.slider) var slider={};slider.data=[{"id":"slide-img-1","client":"RDR Technologies","desc":""},{"id":"slide-img-2","client":"RDR Technologies","desc":" "},{"id":"slide-img-3","client":"RDR Technologies","desc":" "},{"id":"slide-img-4","client":"RDR Technologies","desc":" "},{"id":"slide-img-5","client":"RDR Technologies","desc":" "},{"id":"slide-img-6","client":"RDR Technologies","desc":" "},{"id":"slide-img-7","client":"RDR Technologies","desc":" "}];
+   </script>
+  </div></div><!--/header-->
+
+<!-- webpage content goes here in the body -->
+
+	<div id="orange">
+		<div id="orange">
+			<h1><a href="/" id="logoLink">RDR Technologies</a></h1>
+		</div>
+		<div class="example1">
+<h2>Online Jave Classes starting on 2015-12-24.................. Online Android Weekend Classes Starting on 2015-12-26............. </h2>
+</div>
+		<div id="nav">
+		<table style="width:100%">
+		<tr>
+		<td>                                 </td>
+		<td>                                 </td>
+		<td><button type="button"><div id="orange"><a href="#/home.html"><font color="red"><b>Home</font></a></div></button></td> 
+		<td><button type="button"><div id="orange"><a href="Contact.html"><font color="red"><b>Contact</font></a></div></button></td>
+		<td><button type="button"><div id="orange"><a href="Form.html"><font color="red"><b>Online Enquiry Form</font></a></div></button></td> 
+		<td><button type="button"><div id="orange"><a href="TrainingClasses.html"><font color="red"><b>Training Courses</font></a></div></button></td> 
+		</tr>
+		</table>
+		</div>
+		
+			<h2>Home</h2>
+			<p>
+				<h3><b><font color="red">RDR Online Training is one of the Oldest and most Prominent Training institute with more than 100 professions in their respective areas. And we provide Specialized training in both the Online and face to face.</font></b></h3>
+			</p>
+			<p> 
+				<h3><b><font color="red">We have techincal experts on JAVA and Oracle with about 20 years of real time Industry experience who can guide you through your process of learning. We have a 24/7 open Lab for the syudents to work on the Course, and also we provide 
+					some real time projects for the Students to work on so that the students will get hands on experience with the techincal and functional aspects of the Training and have Laboratory techical assosiates monitoring them during the Day time to help them out if they are facing any issues.</font> </b></h3>
+			</p>
+		</div>
+		<div id="footer">
+			<p>
+
+			</p>
+			
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<footer>
+  <footer>
+  <p>Mobile  :  832-312-0424</p>
+  <p>Contact information: <a href="mailto:RdrTechnologies@gmail.com">
+  RdrTechnologies@gmail.com</a>.</p>
+</footer>
+
+			
+		</div>
+	</div>
+</body>
+</html>
